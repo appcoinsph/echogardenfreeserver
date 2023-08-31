@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>echogarden</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="./echogarden.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h2>echogarden</h2>
+<div id="header-game">
+  <div class="flex-row">
+    <div class="flex-column">
+      <div id="garden">
+      </div>
+    </div>
+    <div class="flex-column" style="max-width: 400px; flex-grow:1">
+
+      <div>
+        <label>Level:</label>
+        <label id="incg-level" class="pull-right"></label>
+      </div>
+
+      <div class="progress">
+        <div id="incg-progress" class="progress-bar"></div>
+      </div>
+      <label>★ Harvest🗑️:</label>
+      <label id="incg-harvested" class="pull-right">
+          </label>
+      <br/>
+      <br/>
+      <div class="text-muted">
+        <p>Click TAP plants to increase your level.</p>
+        <p>ADD water to increase your level.</p>
+        <p>Growing plants earn points and grow into HARVEST BASKET every 10seconds ★s.</p>
+        <p>higher level earn higher bunos +points.</p>
+        <p>level up to grow more plants .</p>
+        <br/><br/>
+        <div id="incg-harvestall">
+      </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'></script><script  src="./echogarden.js"></script>
+
+</body>
+</html>
